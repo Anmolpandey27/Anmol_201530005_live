@@ -177,3 +177,13 @@ button:hover
 {
     background-color: red;
 }
+.js
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+span
+{
+    color: #eee;
+    font-weight: bolder;
+}
