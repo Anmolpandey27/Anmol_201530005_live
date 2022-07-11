@@ -5,21 +5,14 @@
 body {
     margin: 0px;
     font-family: 'segoe ui';
-    
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
-#bg {
-
-    width: 100vw;
-    height: 700vw;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-}
 
 .nav {
     height: 50px;
@@ -49,7 +42,7 @@ body {
     display: inline;
     float: center;
     font-size: 18px;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .nav>.nav-links>a {
@@ -172,18 +165,26 @@ button{
     color: white;
     padding: 10px;
     border-radius: 20px;
+    background-color: rgb(75, 75, 240);
 }
 button:hover
 {
     background-color: red;
 }
-.js
+#js
 {
     display: flex;
     justify-content: space-evenly;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
 }
 span
 {
-    color: #eee;
+    color: rgb(13, 13, 13);
     font-weight: bolder;
 }
